@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Myview="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <com.as.demo.view.ArcProgress
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arcp"
+            Myview:arc_radius="50dp"
+            Myview:arc_lineWidth="10dp"
+            Myview:arc_textSize="18dp"
+            Myview:arc_roundColor="#99000000"
+            Myview:arc_secondColor="#44BBEE"
+            Myview:arc_textColor="#21EFEF"
+            Myview:arc_type="1"
+            Myview:arc_maxProgress="100"
+            Myview:arc_Progress="110"
+            android:layout_margin="10dp"
+
+
+            />
+
+        <com.as.demo.view.ArcProgress
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arcp2"
+            Myview:arc_radius="80dp"
+            Myview:arc_lineWidth="16dp"
+            Myview:arc_textSize="25dp"
+            Myview:arc_roundColor="#99000000"
+            Myview:arc_secondColor="#F5A3E5"
+            Myview:arc_textColor="#21EFEF"
+            Myview:arc_type="2"
+            Myview:arc_maxProgress="150"
+            Myview:arc_Progress="0"
+            android:layout_margin="10dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <com.as.demo.view.ArcProgress
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arcp3"
+            Myview:arc_radius="80dp"
+            Myview:arc_lineWidth="16dp"
+            Myview:arc_textSize="30dp"
+            Myview:arc_roundColor="#99000000"
+            Myview:arc_textColor="#21EFEF"
+            Myview:arc_type="3"
+            Myview:arc_maxProgress="120"
+            Myview:arc_Progress="110"
+            Myview:arc_secondColor="#92B3E4"
+            android:layout_margin="10dp"
+
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arc_start"
+            android:text="arc_start"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <com.as.demo.view.CountDownView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cdv"
+        android:layout_margin="10dp"
+        Myview:radius="40dp"
+        Myview:lineWidth="7dp"
+        Myview:cd_textSize="20dp"
+        Myview:roundColor="#99000000"
+        Myview:secondColor="#11EEEE"
+        Myview:cd_textColor="#B3B3B3"
+        />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cd_start"
+            android:text="start"
+            android:layout_margin="4dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cd_stop"
+            android:text="stop"
+            android:layout_margin="4dp"
+            />
+
+    </LinearLayout>
+
+    <com.as.demo.view.AncientTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myview"
+        Myview:textColor="#ffdddd"
+        Myview:textSize="20dp"
+        Myview:lineSpacing="15dp"
+        Myview:textSpacing="10dp"
+        Myview:setText="竖向的文字12345"
+        Myview:lineTextnum="5"
+        />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AncientText">
+        <attr name="setText"  format="string"/>
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension"/>
+        <attr name="lineSpacing" format="dimension"/>
+        <attr name="textSpacing" format="dimension"/>
+        <attr name="lineTextnum" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="myCountDownView">
+        <attr name="radius"  format="dimension"/>
+        <attr name="lineWidth" format="dimension" />
+        <attr name="cd_textSize" format="dimension"/>
+        <attr name="roundColor" format="color"/>
+        <attr name="secondColor" format="color"/>
+        <attr name="cd_textColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="myArcProgress">
+        <attr name="arc_radius"  format="dimension"/>
+        <attr name="arc_lineWidth" format="dimension" />
+        <attr name="arc_textSize" format="dimension"/>
+        <attr name="arc_roundColor" format="color"/>
+        <attr name="arc_secondColor" format="color"/>
+        <attr name="arc_textColor" format="color"/>
+        <attr name="arc_type" format="integer"/>
+        <attr name="arc_maxProgress" format="float"/>
+        <attr name="arc_Progress" format="float"/>
+    </declare-styleable>
+
+</resources>
