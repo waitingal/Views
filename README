@@ -1,7 +1,4 @@
 圓環進度View與倒計時View
-=====================
 圓環進度View: ArcProgress  帶變速插值器
-------
 倒計時View: CountDownView  回調 剩餘時間與倒計時結束
--------
-![show](https://github.com/waitingal/myas/raw/master/img/show.jpg)
+![image](https://github.com/waitingal/myas/raw/master/img/show.jpg)
